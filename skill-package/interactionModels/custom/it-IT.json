@@ -67,21 +67,11 @@
         },
         {
           "name": "AMAZON.NextIntent",
-          "samples": [
-            "go next",
-            "next track",
-            "skip",
-            "play next"
-          ]
+          "samples": []
         },
         {
           "name": "AMAZON.PreviousIntent",
-          "samples": [
-            "previous track",
-            "go to previous track",
-            "play last track",
-            "go back"
-          ]
+          "samples": []
         },
         {
           "name": "AMAZON.RepeatIntent",
