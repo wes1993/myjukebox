@@ -33,6 +33,8 @@
     "manifestVersion": "1.0",
     "publishingInformation": {
       "distributionCountries": [],
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "STREAMING_SERVICE",
       "isAvailableWorldwide": true,
       "locales": {
         "it-IT": {
