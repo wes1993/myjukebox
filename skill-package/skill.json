@@ -1,29 +1,15 @@
 {
   "manifest": {
-    "manifestVersion": "1.0",
-    "publishingInformation": {
-      "locales": {
-        "it-IT": {
-          "summary": "Sample Short Description",
-          "examplePhrases": [
-            "Alexa open my jukebox",
-            "hello",
-            "help"
-          ],
-          "keywords": [],
-          "name": "MyJukebox",
-          "description": "Alexa MPD Client",
-        }
-      },
-      "distributionCountries": [],
-      "isAvailableWorldwide": true,
-    }	  
     "apis": {
       "custom": {
         "endpoint": {
           "uri": "arn:aws:lambda:eu-west-1:526289474005:function:4154f5b1-78b4-4469-8cfc-42d1af490123:Release_0"
         },
-        "interfaces": [],
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
         "locales": {},
         "regions": {
           "NA": {
@@ -44,5 +30,24 @@
         }
       }
     },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "it-IT": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa apri ciao mondo",
+            "ciao",
+            "aiuto"
+          ],
+          "keywords": [],
+          "name": "AlexaMPDSkill",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
   }
 }
